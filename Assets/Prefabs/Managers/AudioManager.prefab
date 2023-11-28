@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8967578647925202004}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8967578648030699543}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &8967578647925202858
 AudioSource:
@@ -152,6 +152,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8967578648030699542}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -160,7 +161,6 @@ Transform:
   - {fileID: 8967578647925202005}
   - {fileID: 8967578649518790501}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8967578648030699540
 MonoBehaviour:
@@ -171,18 +171,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8967578648030699542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48b846f39fe8697438d1067171c4c5e5, type: 3}
+  m_Script: {fileID: 11500000, guid: ac5da2612186d7c4793dd36ba45e4a3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _fxSource: {fileID: 8967578647925202858}
-  _musicSource: {fileID: 8967578649518790522}
-  _musicAudioClips:
-  - {fileID: 8300000, guid: 38ed8e4965ca2214cb09126faf11fd55, type: 3}
-  _fxAudioClips:
-  - {fileID: 0}
-  - {fileID: 8300000, guid: 2701098345ffdb84dabcf4a2fd64dd37, type: 3}
-  - {fileID: 8300000, guid: 353f534d7504c6945b33b086f05c9361, type: 3}
-  - {fileID: 8300000, guid: 070d87fb752deda4b850500d59a21b88, type: 3}
+  _fxSource: {fileID: 0}
+  _musicSource: {fileID: 0}
+  _musicAudioClips: []
+  _fxAudioClips: []
 --- !u!1 &8967578649518790500
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,13 +202,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8967578649518790500}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8967578648030699543}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &8967578649518790522
 AudioSource:
